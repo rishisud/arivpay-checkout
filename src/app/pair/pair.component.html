@@ -1,0 +1,24 @@
+<div class="Loginpage">
+  <img src="assets/Arivpay_Logo_new.png" class="center"> 
+  <form [formGroup]="pairingForm">
+	<div class="login-form">
+        <h3 class="text-center">ArivPay - Check Out</h3><br>       
+        <div>
+            <input type="text" class="form-control" formControlName="ip_address" placeholder = "Enter IP Address" minlength="7" maxlength="15" size="15" pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$">
+        </div><br>
+		<div>
+            <input class="form-control" formControlName="serial_number" placeholder = "Enter Serial Number" type="text" required="required">
+        </div><br>
+		<div>
+            <input class="form-control" formControlName="pairing_code" placeholder = "Enter Pairing Code" type="text" required="required">
+        </div><br>
+        <div>
+			<button type="submit" class="btn btn-primary" (click)="pairTerminal()">Pair Terminal</button>
+        </div><br>
+		<div>
+		<a routerLink="/"><font color="white">Back To Home Page</font></a>
+		</div>
+	
+    </div>
+	</form>
+</div>

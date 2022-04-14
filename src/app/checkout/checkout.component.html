@@ -1,0 +1,40 @@
+<div class="Loginpage">
+  <img src="assets/Arivpay_Logo_new.png" class="center">
+  <form [formGroup]="checkoutForm">
+	<div class="login-form">
+        <h2 class="text-center">ArivPay - Check Out</h2>
+		<table class="np1" style="padding-bottom: 20px">
+			<tr>
+			<td class="top-button"><button type="button" value="1" (click)="getValue(1)" >1</button></td>
+			<td class="top-button"><button type="button" value="2" (click)="getValue(2)">2</button></td>
+			<td class="top-right-button"><button type="button" value="3" (click)="getValue(3)" >3</button></td>
+			</tr>
+			<tr>
+			<td class="top-button"><button type="button" value="4" (click)="getValue(4)">4</button></td>
+			<td class="top-button"><button type="button" value="5" (click)="getValue(5)">5</button></td>
+			<td class="top-button"><button type="button" value="6" (click)="getValue(6)">6</button></td>
+			</tr>
+			<tr>
+			<td class="top-button"><button type="button" value="7" (click)="getValue(7)">7</button></td>
+			<td class="top-button"><button type="button" value="8" (click)="getValue(8)">8</button></td>
+			<td class="top-button"><button type="button" value="9" (click)="getValue(9)">9</button></td>
+			</tr>
+			<tr>
+			<td class="bottom-button"><button type="button" value="." style="text-align: center" (click)="addPeriod()">&#46;</button></td>
+			<td class="bottom-button"><button type="button" value="0" (click)="getValue(0)">0</button></td>
+			<td class="bottom-button"><button type="button" value="go" (click)="delvalue()">&lt;</button></td>
+			</tr>
+			<tr>
+			<td rowspan="1" colspan="3"><input class="form-control" formControlName="amount" type="text" required="required" placeholder="0" ngModel={{key_value}}></td></tr>
+		  </table>
+		  <!--<table width=100% style="padding-top: 10px"><tr><td><input class="form-control" formControlName="amount" type="text" required="required" placeholder="0" ngModel={{key_value}}></td></tr>
+		  </table>-->
+		  <table style="padding-top: 10px"><tr><td><button type="submit" class="btn btn-primary" (click)="transaction()">Check Out</button></td></tr>
+		  </table>
+			<br>
+			<a routerLink="/"><font color="white">Back To Home Page</font></a>
+		
+    </div>
+	
+	</form>
+</div>

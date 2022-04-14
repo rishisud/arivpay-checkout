@@ -1,0 +1,291 @@
+.Loginpage {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    padding-top: 0px;
+    background-color: #224cd6;
+}
+
+.login-form {
+    width: 340px;
+    margin: 0px auto;
+  	font-size: 15px;
+	padding-top: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 160px;
+  padding-top: 20px;
+}
+
+.text-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control {
+	margin-left: auto;
+    margin-right: auto;
+    min-height: 40px;
+    border-radius: 2px;
+	font-size: 20px;
+	font-family: "FreeMono";
+}
+
+.btn {
+	margin-left: auto;
+    margin-right: auto;
+    min-height: 40px;
+	min-width: 330px;
+	border: 2px solid #d44ec6;
+    border-radius: 2px;
+	font-size: 28px;
+	font-family: "FreeMono";
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+.btn:hover {background-color: #d44ec6}
+.top-button {padding-left: 10px; padding-top:10px}
+.top-right-button {padding-left: 10px; padding-right: 0px; padding-top:10px}
+.bottom-button {padding-left: 10px; padding-bottom:10px; padding-top:10px}
+.np1 {
+  position:relative; float: left;
+  top: 50%; left: 16%;
+  padding-left: 20px; padding-top: 20px; padding-right: 20px;
+		border-style: solid;
+		border-color: #d44ec6;
+		border-radius: 5px;
+		border-width: thin;
+
+}
+.np1 button {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    width: 55px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+	box-shadow: none;
+	border: none;
+}
+
+@media (min-width: 660px) and (max-width: 1024px) and (orientation: portrait) {
+	h2 {
+		padding-top: 50px;
+	}
+	.Loginpage {
+		width: 100%;
+		height: 94vh;
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-size: cover;
+		padding-top: 100px;
+		background-color: #224cd6;
+		}
+		.np1 {
+			position:relative; 
+			float: left;
+			top: 50%; 
+			left: -22%;
+			border-style: solid;
+			border-color: #d44ec6;
+			border-radius: 5px;
+			border-width: thin;
+		}
+		.np1 button {
+			background-color: white;
+			color: blue;
+			text-align: center;
+			width: 70px;
+			font-size: 55px;
+			cursor: pointer;
+			border-radius: 50%;
+			box-shadow: none;
+			border: none;
+		}
+		.form-control {
+			margin-left: auto;
+			margin-right: auto;
+			min-height: 40px;
+			border-radius: 2px;
+			font-size: 28px;
+			font-family: "FreeMono";
+			padding-left:50px;
+		}
+.top-button {padding-left: 40px; padding-top:30px}
+.top-right-button {padding-left: 40px; padding-right: 0px; padding-top:30px}
+.bottom-button {padding-left: 40px; padding-bottom:30px; padding-top:30px}
+}
+
+@media (max-width: 659px)  and (orientation: portrait) {
+	h2 {
+		padding-top: 20px;
+		font-size: 12px;
+	}
+	.Loginpage {
+		width: 100%;
+		height: 94vh;
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-size: cover;
+		padding-top: 20px;
+		background-color: #224cd6;
+	}
+	.login-form {
+		width: 200px;
+		margin: 0px auto;
+		font-size: 15px;
+		padding-top: 20px;
+}
+	.center {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		height: 120px;
+		padding-top: 20px;
+	}
+	.text-center {
+		margin-left: auto;
+		margin-right: auto;
+		width: 240px;
+		font-size: 20px;
+		color: #ffffff;
+		
+	}
+	.btn {
+		
+		min-height: 40px;
+		min-width: 200px;
+		border: 2px solid #d44ec6;
+		border-radius: 2px;
+		font-size: 24px;
+		font-family: "FreeMono";
+		background-color: transparent;
+		color: white;
+		cursor: pointer;
+	}
+	.np1 {
+			position:relative; 
+			float: left;
+			top: 50%; 
+			left: -16%;
+			max-width: 180px;
+			border-style: solid;
+			border-color: #d44ec6;
+			border-radius: 5px;
+			border-width: thin;
+		}
+		.np1 button {
+			background-color: white;
+			color: blue;
+			text-align: center;
+			width: 48px;
+			font-size: 34px;
+			cursor: pointer;
+			border-radius: 50%;
+			box-shadow: none;
+			border: none;
+		}
+		.form-control {
+			font-size: 16px;
+			height:40px;	
+			font-family: "FreeMono";
+	}
+}
+
+@media (min-width: 1025px) {
+	h2 {
+		padding-top: 20px;
+	}
+	.Loginpage {
+		width: 100%;
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-size: cover;
+		padding-top: 20px;
+		background-color: #224cd6;
+	}
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		height: 120px;
+		padding-top: 20px;
+	}
+	
+	.form-control {
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 40px;
+		border-radius: 2px;
+		font-size: 28px;
+		font-family: "FreeMono";
+		padding-left:50px;
+	}
+	
+	.login-form {
+		width: 340px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 15px;
+		padding-top: 10px;
+
+	}
+	.login-form form {
+		margin-bottom: 15px;
+		background: #f7f7f7;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+		padding: 20px;
+	}
+	.login-form h2 {
+		margin: 0 0 15px;
+	}
+	.np1 {
+			position:relative; 
+			float: left;
+			top: 50%; 
+			left: -5%;
+			border-style: solid;
+			border-color: #d44ec6;
+			border-radius: 5px;
+			border-width: thin;
+			box-shadow: 2px 2px 2px #d44ec6;
+		}
+		.np1 button {
+			background-color: white;
+			color: blue;
+			text-align: center;
+			width: 70px;
+			font-size: 50px;
+			cursor: pointer;
+			border-radius: 50%;
+			box-shadow: none;
+			border: none;
+		}
+.top-button {padding-left: 30px; padding-top:30px}
+.top-right-button {padding-left: 30px; padding-right: 30px; padding-top:30px}
+.bottom-button {padding-left: 30px; padding-bottom:30px; padding-top:30px} 
+}
